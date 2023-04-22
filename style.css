@@ -1,0 +1,137 @@
+/* Write some CSS below : */
+
+body {
+  background: #F0C27B;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #4B1248, #F0C27B);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4B1248, #F0C27B);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #fafafa;
+  color: #0e142b;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 27px;
+  font-weight: 900;
+  font-weight: bold;
+}
+
+
+h2 {
+  color: #ce7eb5;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+h1,h2 {
+  color: #4B1248;
+  font-weight: 300;
+  font-family: 'Montserrat', serif;
+}
+
+.card-white {
+  background: #d9a7c7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fffcdc, #d9a7c7);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #ffffffe1;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  Margin: 20px 0;
+  box-shadow: 0 10 px 20px rgba (0, 0, 0, 0.1);
+}
+
+.card-white ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.card-white li {
+  text-align: justify;
+}
+
+.card-white p {
+  text-align: justify;
+}
+
+.container {
+  width: 720px;
+  margin: 10px auto;
+}
+
+#diane {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-white {
+  background-color: #4B1248;
+  color: rgb(241, 241, 241);
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-family: montserrat, serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-white:hover {
+  background-color: #120f0fe1
+}
+
+#intro {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+#carrefour {
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+
+#edf {
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #4B1248;
+  letter-spacing: 30px;
+  text-decoration: none;
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
